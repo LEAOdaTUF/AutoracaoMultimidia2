@@ -1,0 +1,169 @@
+
+/* RESET */
+* {
+	margin: 0; 
+	padding-right: 0; 
+	font-size: 100%; 
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: normal;
+	box-sizing: border-box; 
+	border: none;
+	outline: none;
+}
+img {
+	max-width: 100%
+}
+ul{ 
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	font-size: 1.5em;
+	color: #333;
+}
+p {
+	font-size: 1em
+	color#777;
+}
+/* CABEÇALHO */
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding: 20px 8%;
+	background-color: #13c7ae;
+}
+.logo a {
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-image: url("Logo Mosaico.png") no-repeat);
+	background-size: contain;
+	background-color: #cccccc;
+	font-size: 0;
+}
+.cabecalho form {
+	width: 20%;
+	float: right;
+}
+.cabecalho input[type="text"] {
+	width: 85%;
+	float: left;
+	padding: 15px 10px;
+	border-radius: 5px 0 0 5px;
+}
+.cabecalho button {
+	width: 15%; 
+	float: right;
+	padding: 15px 10px; 
+	background-color: lightblue;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+}
+/*MENU*/
+
+ul {
+
+  position: fixed;
+  top:0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  z-index: 10;
+}
+
+li {
+  float: left;
+}
+
+li a {
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 40px;
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+li a:hover {
+
+  color: white;
+}
+#logo-img{
+	padding: 14px 40px;
+	padding-top: 16px; 
+	width: 200px;
+}
+
+/*PRICIPAL*/
+
+.principal {
+	width: 100%;
+	padding: 20px 8%;
+	
+}
+.sobre {
+	margin-top: 70px;
+display: flex;
+	justify-content: center;
+}
+
+
+
+#imagem-logo{
+	width: 400px;
+	height: 400px;
+	
+}
+
+.servicos {
+	padding: 0 20px 20px 0;
+	position: relative;
+	width: 100%;
+
+}
+.servicos h2 {
+	margin-bottom: 15px;
+}
+
+.servicos img {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	margin: 0 15px 15px 0;
+	float: left;
+	left: 0;
+}
+.servicos p {
+	text-align: justify;
+}
+
+
+.informacoes{
+	padding: 0 20px 20px 0;
+	position: relative;
+	width: 100%;
+}
+
+.mapa img {
+	width: 52%;
+	float: left;
+	border-radius: 5px;
+	margin: 0 15px 15px 0;
+	position: absolute;
+	left: 0;
+}
+
+.contatos img {
+	width: 50%;
+	float: right;
+	border-radius: 5px;
+	margin: 0 15px 15px 0;
+	
+	right: 0;
+}
